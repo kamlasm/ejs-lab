@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title><%= restaurant.name %></title>
+</head>
+<body>
+    <%- include('./partials/nav') %>
+    <h1><%= restaurant.name %></h1>
+    <h3><%= restaurant.address %></h3>    
+    <h3><%= restaurant.phone %></h3>   
+    <p><%= restaurant.isOpen ? "Yes we are open!" : "Sorry, we are closed." %></p>
+</body>
+</html>
