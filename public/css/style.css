@@ -8,9 +8,39 @@ h1, h2 {
     color:rgb(13, 65, 13);
 }
 
+h1 {
+    font-size: 48px;
+    margin: 30px 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px;
+}
+
 nav {
     padding-top: 10px;
 }
 nav > a {
     padding: 5px;
+    font-size: 18px;
+}
+
+nav > a:visited {
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    margin: 15px;
+}
+
+#is-open {
+    font-size: 28px;
+    color:rgb(13, 65, 13);
 }
